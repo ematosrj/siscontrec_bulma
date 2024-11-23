@@ -1,0 +1,72 @@
+html {
+    background-color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    width: auto;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: auto; /* O footer ocupa toda a largura */
+    background-color: #0A0505;
+    --bulma-footer-padding: -1rem 1.5rem 6rem;
+    color: white;
+    text-align: center; /* Centraliza o texto no footer */
+}
+
+.level {
+    background-color: #0A0505;
+    color: #fff;
+    justify-content: center; /* Centraliza os itens dentro do nav */
+}
+
+.title {
+    color: #fff;
+}
+
+.navbar {
+    background-color: #fff; /* Fundo branco */
+}
+
+.navbar-item.has-text-dark {
+    color: #000; /* Texto preto */
+    font-size: 30px; /* Tamanho da fonte 40px */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.login-container {
+    min-height: auto; /* Garante que a área de login ocupe toda a tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    max-width: 400px; /* Define a largura máxima do formulário */
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para o formulário */
+    background-color: white;
+    border-radius: 8px;
+}
+.label {
+    color: black;
+}
+
+.h2 {
+    color: black;
+}
+
